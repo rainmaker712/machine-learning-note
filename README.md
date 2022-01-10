@@ -5,6 +5,7 @@ Python examples and concepts for Machine Learning
 ## Table of Contents
 
 <!-- MarkdownTOC depth=4 -->
+  - [Supervised Learning](https://github.com/ryanshin712/machine-learning-note/tree/main/supervised-learning)
   - [Lecture](#lecture)
   - [Books](#books)
 
