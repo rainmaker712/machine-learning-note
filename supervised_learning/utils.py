@@ -31,12 +31,11 @@ def learning_curve_plotter(clf, x, y, metric="f1", train_sizes=np.linspace(0.1, 
     plt.savefig(os.path.join("fig", save_name))
     plt.close()
 
-def model_param_curve(grid_search_result_df, x_label, params, param_name, save_fig_name):
+def model_param_curve(grid_search_result_df, x_label, params, param_name, save_fig_name, title="Default of Credit Card"):
     
     x_range=params[param_name]
     x_label=x_label
     y_label="f1_micro"
-    title="Default of Credit Card"
     
     mean_train = grid_search_result_df["mean_train_score"]
     mean_test = grid_search_result_df["mean_test_score"]
